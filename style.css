@@ -1,0 +1,402 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, sans-serif, sans-serif;
+    background-color: #FFFFFF;
+}
+.header{
+    background-color: black;
+}
+/* TOP ROW  and Search Bar */
+.top-row{
+    color: white;
+    display: flex;
+    padding-top: .5rem;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+.row-child{
+    align-items: center;
+    padding: 0 1rem 0 1rem;
+    display: flex;
+    align-items: center;
+}
+span{
+    color: #FDC91F;
+    cursor: pointer;
+}
+.row-child img{
+    padding-left: .5rem;
+    padding-right: .5rem;
+    cursor: pointer;
+}
+/* .row-child img:hover{
+    
+} */
+input, button{
+    padding: .5rem .8rem .5rem .8rem;
+    letter-spacing: 1px;
+    border: none; 
+    font-weight: 800;  
+}
+input{
+    width: 80%;
+    font-weight: 100;
+}
+.primary-btn{
+background-color:#FDC91F;
+cursor: pointer;
+}
+:nth-child(4){
+align-items: center;
+}
+/*LOGO and NAVIGATION BAR */
+.navbar{
+    display: flex;
+    line-height: 2rem;
+}
+.nav-items ul li{
+    color: white;
+    display: inline-block;
+    padding: .5rem 1rem 0rem 1rem;
+}
+/* PRESS RELEASE CONTAINER */
+.press-container{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    margin-top: 1rem;
+    gap: 2rem;
+}
+.pr-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.press{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    align-items: center;
+    }
+.press-box img{
+    height: 10rem;      /* for same size images in press release 2 images*/
+}
+.press-content{
+    text-align: justify;
+    font-family: 'Arial Narrow';
+}
+.readmore{
+    padding-top: .8rem;
+    letter-spacing: .1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pr-right{
+    display: flex;
+    flex: 1;
+    gap: 1rem;
+}
+.pr-right-image img{
+    width: 100%;         /* fix images according to the sizes of div */
+    margin-top: 2rem;
+}
+.armedforces{
+    margin: 5rem 0 2rem 0;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 1000;
+    letter-spacing: 1px;
+}
+.afimages{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* font-size: larger; */
+    justify-content: space-evenly;
+}
+.af{
+    display: flex;
+    align-items: center;
+}
+.af p{
+    padding-left: 1rem;
+}
+/* ARMY / NAVY / PAF Motto Section */
+.outer-container{
+    background-color: #1B1719;
+    margin-top: 10rem;
+    position: relative;
+}
+
+.army_bg{
+    position: absolute;
+    left: 5%;
+    top: -120px;
+    width: 95%;
+    opacity: 1;
+}
+
+.container{
+    margin-top: 5rem;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding-top: 10rem ;
+    padding-bottom: 5rem ;
+    align-items: center;
+    background-color: rgb(27, 26, 26);
+}
+.h1{
+    position: relative;
+    color: white;
+    letter-spacing: .2rem;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    padding: .5rem 0 1rem 0;
+}
+.grey{
+    position: relative;
+    color: #7a7a7a;
+}
+
+.army-content a:hover {
+    color: #519AF9;
+    text-decoration: underline;
+    transition: 1s;
+}
+.video {
+    position: relative;
+    padding-top: 1rem;
+    /* width: 30rem; */
+    /* height: 20rem; */
+}
+.motto{
+    position: relative;
+    background-color: white;
+    margin-left: 4rem;
+    padding: 3rem 4rem;
+    text-align: justify;
+    line-height: 1.5rem;
+    color: rgb(88, 87, 87);
+    font-family: 'Arial Narrow';
+    letter-spacing: 1px;
+}
+/* OUR PUBLICATIONS section  */
+.pub-container{
+    background-color: #f7f7f7;
+    /* width: 90%; */
+    /* margin: auto; */
+}
+.publications{
+    padding-top: 3rem;
+    text-align: center;
+}
+.lang{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 2rem;
+    cursor: pointer;
+}
+.lang :hover{
+    border-bottom: 3px solid #fac61d;
+}
+.pub-image{
+/* margin: auto; */
+display: flex;
+justify-content: center;
+gap: 1rem;
+text-align: center;
+flex-wrap: wrap;
+}
+.pub-image-child{
+    background-color: #FFFFFF;
+    padding: 2rem;
+}
+.pub-image-child img{
+    width: 100%;
+}
+.h3 {
+    font-size: larger;
+}
+a{
+    color: #fdc60f;                 /*For read more links*/
+    text-decoration: none;
+}
+.sec-btn{
+    border: 2px solid #fdc60f;
+    background-color: #FBFBFB;
+    color: #fdc60f;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 1rem 1rem;
+    align-items: center;
+    cursor: pointer;
+}
+/*  TAKE A PATH WITH PURPOSE*/
+.outer-purpose .pub-container{
+    background-color: white;
+    /* border: 2px solid black; */
+    /* color: #1A169E; */
+}
+.outer-purpose .pub-image div{
+    background-color: #f5f4f4;
+    line-height: 1.5rem;
+    justify-content: center;
+    font-family: Verdana;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color:rgb(87, 87, 87);
+    margin-bottom: .5rem;
+    /* align-items: center;   */
+}
+/* Join Pakistan Armed Forces Section */
+.join-container{
+    margin-top: .5rem;
+    background-color: #1B1719;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.join-outer{
+/* width: 100%; */
+display: flex;
+margin: auto;
+justify-content: center;
+padding: 4rem 0 3rem 0;
+}
+.join-images{
+    display: flex;
+    max-width: 100%;
+}
+.join-child{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+ /* for white content boxes between images*/
+.title{                 
+    font-size: 2rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.green {
+    color: rgb(8, 147, 104);
+}
+.green-large {
+    color: rgb(8, 147, 104);
+    font-size: 3rem;
+    text-align: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.join-army-btn{
+    position: relative;
+    color: white;
+    background-color: #FEC325;
+    letter-spacing: 0;
+    padding: .8rem 1rem;
+    bottom: 8.5rem;
+    left: 7rem;
+}
+.join-army-btn:hover{
+    animation: asname duration timing-function delay iteration-count direction fill-mode;
+    cursor: pointer;
+    /* transition: ; */
+    background-color: #ECAA00;
+    transition: 1s;
+}
+/* ISPR PRODUCTIONS */
+.prod{
+    background-color: white;
+    }
+.navlist{
+    display: flex;
+    line-height: 2rem;
+    justify-content: center;
+}
+.navlist ul li{
+    display: inline-block;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: .9rem;
+    font-weight: 600;
+    color: #7B7973;
+}
+.navlist ul li:hover{
+    text-decoration: 3px solid #fac61d underline;
+}
+.prod-gallery{
+    /* margin-left: 6rem; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex: 1;
+    /* outline: 5px solid green; */
+    gap: 1rem;
+    /* flex-wrap: wrap; */
+}
+.prod-item img{   
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.title-name{
+    padding-top: 1rem;
+    font-weight: 700;
+}
+.year{
+    padding-top: .2rem;
+    color: #7B7973;
+    font-weight: 600;
+    font-size: .9rem;
+}
+/* FOOTER SECTION */
+.footer{
+    margin-top: 5rem;
+    background-color: #151517;
+    color: white;
+    height: 10rem;
+}
+.social_link{
+display: flex;
+border: 1px solid rgb(105, 91, 91);
+justify-content: center;
+align-items: center;
+gap: .5rem;
+line-height: 2.5rem;
+}
+.social_links{
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+.follow{
+    color: white;
+    font-weight: 800;
+    font-size: 1.4rem;
+    padding-right: 1rem;
+}
+.footer-nav{
+    display: flex;
+    align-items: center;
+    /* align-content: center; */
+    padding-top: 1rem;
+    justify-content: space-around;
+}
+.footer-nav ul li{
+    justify-content: center;
+    display: inline-block;
+    padding: .3rem;
+}
